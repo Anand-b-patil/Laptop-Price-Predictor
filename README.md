@@ -110,7 +110,7 @@ Run the app:
 streamlit run app.py
 ```
 
-```
+
 ## 📈 Example Prediction vs Real Market Price
 
 🔧 **Input Specifications:**
@@ -130,7 +130,7 @@ streamlit run app.py
 | **SSD (in GB)**      | 512              |
 | **GPU Brand**        | Intel (Integrated) |
 | **Operating System** | Windows          |
-```
+
 ---
 
 🎯 **Predicted Price by Model:** ₹76,812.94  
