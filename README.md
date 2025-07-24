@@ -20,7 +20,8 @@ streamlit run app.py
 
 
 
-##🧠 Features
+🧠 Features
+---
 
 Predict laptop prices based on key specs
 
@@ -34,7 +35,8 @@ Handles preprocessing, feature engineering, and model serialization
 
 
 
-##📊 Model Overview
+📊 Model Overview
+---
 Algorithm Used: Random Forest Regressor
 
 Preprocessing: OneHotEncoding, ColumnTransformer
@@ -45,7 +47,8 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 
 
 
-##🧾 Input Features
+🧾 Input Features
+---
 💼 Brand (e.g., Dell, HP, Lenovo)
 
 💻 Type (e.g., Ultrabook, Gaming, Netbook)
@@ -64,7 +67,8 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 
 
 
-##📁 Project Structure
+📁 Project Structure
+---
 bash
 Copy
 Edit
@@ -79,7 +83,8 @@ Laptop-Price-Predictor/
 
 
 
-##🛠️ Installation & Usage
+🛠️ Installation & Usage
+---
 Clone the repository:
 
 bash
@@ -108,7 +113,8 @@ Edit
 streamlit run app.py
 
 
-##📈 Example Prediction
+📈 Example Prediction
+---
 Input:
 
 Brand: Lenovo
@@ -129,7 +135,8 @@ Screen: 14", Full HD, Touchscreen
 
 Predicted Price: ₹55,372.01
 
-##📷 Screenshots
+📷 Screenshots
+---
 <img src="https://raw.githubusercontent.com/Anand-b-patil/Laptop-Price-Predictor/main/assets/ui_demo.png" width="600" />
 
 
