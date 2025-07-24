@@ -136,7 +136,7 @@ streamlit run app.py
 
 🖼️ **UI Preview:**
 
-![Laptop Price Predictor Screenshot](https://raw.githubusercontent.com/Anand-b-patil/Laptop-Price-Predictor/main/ui_demo.png)
+![Laptop Price Predictor Screenshot](ui_demo.png)
 
 
 
