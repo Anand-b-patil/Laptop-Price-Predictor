@@ -17,6 +17,7 @@ Or run it locally:
 
 
 streamlit run app.py
+---
 
 
 🧠 Features
@@ -29,6 +30,8 @@ Clean, interactive Streamlit web interface
 Real-time prediction and result visualization
 
 Handles preprocessing, feature engineering, and model serialization
+---
+
 
 📊 Model Overview
 Algorithm Used: Random Forest Regressor
@@ -38,6 +41,8 @@ Preprocessing: OneHotEncoding, ColumnTransformer
 Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE)
 
 Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop records
+---
+
 
 🧾 Input Features
 💼 Brand (e.g., Dell, HP, Lenovo)
@@ -55,6 +60,8 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 💾 RAM & Storage (HDD/SSD)
 
 🧑‍💻 Operating System
+---
+
 
 📁 Project Structure
 bash
@@ -68,6 +75,8 @@ Laptop-Price-Predictor/
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project overview
 ├── EDA and Modeling.ipynb  # Exploratory analysis and training notebook
+---
+
 
 🛠️ Installation & Usage
 Clone the repository:
@@ -96,6 +105,8 @@ bash
 Copy
 Edit
 streamlit run app.py
+---
+
 📈 Example Prediction
 Input:
 
