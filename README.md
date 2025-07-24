@@ -8,18 +8,6 @@ A machine learning-powered web application that predicts the price of a laptop b
 ![ML](https://img.shields.io/badge/Machine%20Learning-RandomForest-green.svg)
 
 
- 🚀 Demo
- ---
-
-🔗 [Live Demo Coming Soon](#)
-
-Or run it locally:
-
-
-streamlit run app.py
-
-
-
 🧠 Features
 ---
 
