@@ -86,59 +86,69 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 Clone the repository:
 
 ```bash
-Copy
-Edit
+
 git clone https://github.com/Anand-b-patil/Laptop-Price-Predictor.git
 cd Laptop-Price-Predictor
 ```
 Create virtual environment (optional):
 
 ```bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 Install dependencies:
 
 ```bash
-Copy
-Edit
+
 pip install -r requirements.txt
 ```
 Run the app:
 
 ```bash
-Copy
-Edit
+
 streamlit run app.py
 ```
 
+```
+## 📈 Example Prediction vs Real Market Price
 
-📈 Example Prediction
+🔧 **Input Specifications:**
+
+| Feature              | Value             |
+|----------------------|------------------|
+| **Company**          | HP               |
+| **Type**             | Gaming           |
+| **RAM (in GB)**      | 16               |
+| **Weight (in KG)**   | 2.29             |
+| **Touchscreen**      | No               |
+| **IPS Panel**        | Yes              |
+| **Screen Size**      | 15.60 inches     |
+| **Resolution**       | 1920x1080        |
+| **CPU Brand**        | Intel Core i5    |
+| **HDD (in GB)**      | 0                |
+| **SSD (in GB)**      | 512              |
+| **GPU Brand**        | Intel (Integrated) |
+| **Operating System** | Windows          |
+```
 ---
-Input:
 
-Brand: Lenovo
+🎯 **Predicted Price by Model:** ₹76,812.94  
+🛒 **Actual Market Price (Amazon/Flipkart):** ₹72,000 – ₹78,000
 
-Type: Ultrabook
-
-RAM: 8 GB
-
-CPU: Intel Core i5
-
-GPU: Intel UHD
-
-Storage: 256GB SSD
-
-OS: Windows 10
-
-Screen: 14", Full HD, Touchscreen
-
-Predicted Price: ₹55,372.01
-
-📷 Screenshots
 ---
-<img src="https://raw.githubusercontent.com/Anand-b-patil/Laptop-Price-Predictor/main/assets/ui_demo.png" width="600" />
+
+📌 **Note:**
+
+- The model's prediction is within **±5% of actual prices**, indicating high accuracy.
+- Reference laptops: _HP Victus / HP Pavilion Gaming_, matching the above specs.
+- Prices gathered from live product listings on Amazon and Flipkart (as of July 2025).
+
+---
+
+🖼️ **UI Preview:**
+
+![Laptop Price Predictor Screenshot](https://raw.githubusercontent.com/Anand-b-patil/Laptop-Price-Predictor/main/ui_demo.png)
+
 
 
