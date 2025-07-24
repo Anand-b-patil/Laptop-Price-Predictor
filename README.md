@@ -7,7 +7,7 @@ A machine learning-powered web application that predicts the price of a laptop b
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.35.0-red.svg)
 ![ML](https://img.shields.io/badge/Machine%20Learning-RandomForest-green.svg)
 
----
+
 
 ## 🚀 Demo
 
@@ -17,10 +17,11 @@ Or run it locally:
 
 
 streamlit run app.py
----
 
 
-🧠 Features
+
+##🧠 Features
+
 Predict laptop prices based on key specs
 
 Trained using Random Forest Regressor
@@ -30,10 +31,10 @@ Clean, interactive Streamlit web interface
 Real-time prediction and result visualization
 
 Handles preprocessing, feature engineering, and model serialization
----
 
 
-📊 Model Overview
+
+##📊 Model Overview
 Algorithm Used: Random Forest Regressor
 
 Preprocessing: OneHotEncoding, ColumnTransformer
@@ -41,10 +42,10 @@ Preprocessing: OneHotEncoding, ColumnTransformer
 Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE)
 
 Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop records
----
 
 
-🧾 Input Features
+
+##🧾 Input Features
 💼 Brand (e.g., Dell, HP, Lenovo)
 
 💻 Type (e.g., Ultrabook, Gaming, Netbook)
@@ -60,10 +61,10 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 💾 RAM & Storage (HDD/SSD)
 
 🧑‍💻 Operating System
----
 
 
-📁 Project Structure
+
+##📁 Project Structure
 bash
 Copy
 Edit
@@ -75,10 +76,10 @@ Laptop-Price-Predictor/
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project overview
 ├── EDA and Modeling.ipynb  # Exploratory analysis and training notebook
----
 
 
-🛠️ Installation & Usage
+
+##🛠️ Installation & Usage
 Clone the repository:
 
 bash
@@ -105,9 +106,9 @@ bash
 Copy
 Edit
 streamlit run app.py
----
 
-📈 Example Prediction
+
+##📈 Example Prediction
 Input:
 
 Brand: Lenovo
@@ -128,7 +129,7 @@ Screen: 14", Full HD, Touchscreen
 
 Predicted Price: ₹55,372.01
 
-📷 Screenshots
+##📷 Screenshots
 <img src="https://raw.githubusercontent.com/Anand-b-patil/Laptop-Price-Predictor/main/assets/ui_demo.png" width="600" />
 
 
