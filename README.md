@@ -69,7 +69,7 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 
 📁 Project Structure
 ---
-Laptop-Price-Predictor/
+```Laptop-Price-Predictor/
 │
 ├── app.py                  # Streamlit web app
 ├── predictor.pkl           # Trained Random Forest model
@@ -77,6 +77,7 @@ Laptop-Price-Predictor/
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project overview
 ├── EDA and Modeling.ipynb  # Exploratory analysis and training notebook
+```
 
 
 
@@ -84,30 +85,34 @@ Laptop-Price-Predictor/
 ---
 Clone the repository:
 
-bash
+```bash
 Copy
 Edit
 git clone https://github.com/Anand-b-patil/Laptop-Price-Predictor.git
 cd Laptop-Price-Predictor
+```
 Create virtual environment (optional):
 
-bash
+```bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install dependencies:
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 Run the app:
 
-bash
+```bash
 Copy
 Edit
 streamlit run app.py
+```
 
 
 📈 Example Prediction
