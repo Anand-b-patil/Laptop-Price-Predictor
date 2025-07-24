@@ -69,9 +69,6 @@ Trained On: Cleaned and processed version of a public dataset with ~1300+ laptop
 
 📁 Project Structure
 ---
-bash
-Copy
-Edit
 Laptop-Price-Predictor/
 │
 ├── app.py                  # Streamlit web app
