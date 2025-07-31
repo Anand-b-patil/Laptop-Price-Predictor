@@ -1,19 +1,9 @@
-"""
-Data Loading & Initial Exploration Module
-"""
+
 import numpy as np 
 import pandas as pd
 
 def load_and_explore_data(file_path='laptop_data.csv'):
-    """
-    Load the laptop dataset and perform initial exploration
 
-    Parameters:
-    file_path (str): Path to the CSV file
-
-    Returns:
-    pandas.DataFrame: Loaded dataset
-    """
     # Load data
     df = pd.read_csv(file_path)
 
